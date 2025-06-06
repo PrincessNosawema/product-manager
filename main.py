@@ -1,4 +1,4 @@
-from product import Product
+from Product import Product
 
 # Add a few sample products
 Product("Bag", "Women items", 5, "yellow and classy")
