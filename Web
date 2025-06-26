@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jane Doe • Data Engineer</title>
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container">
+      <a href="#" class="logo">Jane Doe</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO / LANDING -->
+  <section id="hero" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Hi, I’m Jane Doe</h1>
+      <p>Building intelligent systems & data‑driven automation using Python & AI.</p>
+      <a href="#projects" class="btn">Explore My Work</a>
+    </div>
+  </section>
+
+  <!-- ABOUT / PROFESSIONAL SUMMARY -->
+  <section id="about" class="section section--glass" data-aos="fade-right">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>With 5+ years shaping robust data pipelines and deploying ML models, I harness Python, NLP, and automation frameworks to transform complex data into actionable insights and intelligent processes for business impact.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS & COMPETENCIES -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Skills & Competencies</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Technical</h3>
+          <ul>
+            <li>Python • Pandas • SQL • Docker • AWS</li>
+            <li>TensorFlow • scikit‑learn • PyTorch</li>
+            <li>Airflow • Prefect • CI/CD</li>
+            <li>NLP: spaCy • NLTK • Transformers</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Problem‑solving & critical thinking</li>
+            <li>Cross‑functional collaboration</li>
+            <li>Communication & mentorship</li>
+            <li>Agile & results‑driven mindset</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS -->
+  <section id="projects" class="section section--projects">
+    <div class="container">
+      <h2 data-aos="fade-up">Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="zoom-in">
+          <img src="assets/images/project1.png" alt="Project 1 screenshot">
+          <div class="project-info">
+            <h3>Automated Data Pipeline</h3>
+            <p>Built scalable ETL pipelines using Airflow & Python to process 100K+ daily records with monitoring and alerting.</p>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="assets/images/project2.png" alt="Project 2 screenshot">
+          <div class="project-info">
+            <h3>Sentiment Analysis Engine</h3>
+            <p>Developed real‑time NLP engine with Transformers for social media sentiment tracking, achieving 92% accuracy.</p>
+          </div>
+        </div>
+        <!-- Add more as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CALL‑TO‑ACTION -->
+  <section id="contact" class="section section--glass" data-aos="fade-up">
+    <div class="container">
+      <h2>Work With Me</h2>
+      <p>If you're seeking a data‑driven engineer to elevate your AI/ML or automation workflow, I'd love to connect.</p>
+      <a href="mailto:jane.doe@example.com" class="btn btn-primary">Say Hello</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Jane Doe • Data Engineer • Built with 💡 & Python</p>
+    </div>
+  </footer>
+
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
